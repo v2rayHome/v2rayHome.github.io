@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>最新洋葱浏览器怎么用最详细的使用教程</title>
+      <link href="/2023/09/07/dark-004/"/>
+      <url>/2023/09/07/dark-004/</url>
+      
+        <content type="html"><![CDATA[<p>洋葱浏览器怎么用，我教你，包教包会</p><a id="more"></a><h1 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h1><ol><li>暗网很安全，毕竟是为了保护你的隐私再建立的项目</li><li>暗网交易很危险，欺骗违法行为十分多见</li><li>不要相信陌生人的话</li></ol><h1 id="tor-浏览器的下载安装"><a href="#tor-浏览器的下载安装" class="headerlink" title="tor 浏览器的下载安装"></a>tor 浏览器的下载安装</h1><p>tor是什么？很多人都不知道，觉得他很不正规很黑暗，其实不是这样的。tor浏览器的内核是firefox的内核，在加上多层（像洋葱一样）代理或者网桥的功能，就构成了著名的tor浏览器。<br>tor下载的地址不需要暗网，只需要普通的浏览器就可以了，比如chrome。</p><p>下载地址：<a href="https://www.torproject.org/download/alpha/">https://www.torproject.org/download/alpha/</a><br>选择中文简体的即可，如下图</p><p><img src="https://res.cloudinary.com/dherizchh/image/upload/v1554602795/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20190407100535.png" alt="tor 浏览器"><br>tor</p><p>直接从主页下载的话，默认是English</p><ul><li><p>有病毒吗？不敢下载？！<br>放心没有任何副作用的！！</p></li><li><p>安装过程<br>点击安装就可以了，可以选择安装位置！</p></li></ul><h1 id="如何上暗网？"><a href="#如何上暗网？" class="headerlink" title="如何上暗网？"></a>如何上暗网？</h1><p>有以下三种方法</p><ol><li>代理连接</li></ol><p>这种方法比较常用，原因是比较快，可以用免费的节点分享网址或者自己搭建（以后讲方法，欢迎关注）<br>免费的节点分享网址：<a href="http://free-proxy.cz/en">http://free-proxy.cz/en</a></p><ol start="2"><li>网桥连接</li></ol><p>使用内置网桥可以连接，但是网速很慢的<br>具体使用方法：选择桥连——选择内置网桥——meek azure<br>或者可以申请一个torproject网桥，这个比较有潜力！</p><ol start="3"><li>ssr默认sockets5端口</li></ol><p>如果你使用的ssr工具的话，那恭喜你 你将拥有一个更快捷的方法去登陆暗网<br>因为ssr默认带了一个sockets5的端口 端口号是1080（也可以修改 在ssr设置里）<br>然后我们登录暗网的是时候可以选择使用本地的端口 ip是本机ip 127.0.0.1</p><p><img src="https://res.cloudinary.com/dherizchh/image/upload/v1559378849/darkweb_ssr.jpg" alt="socks 5"></p><h1 id="暗网网址"><a href="#暗网网址" class="headerlink" title="暗网网址"></a>暗网网址</h1><p><a href="https://v2rayhome.github.io/2023/08/22/dark-001/">史上最全的暗网网址推荐</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 暗网 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 暗网 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>暗网中文论坛究竟有多危险？</title>
       <link href="/2023/09/06/dark-003/"/>
       <url>/2023/09/06/dark-003/</url>

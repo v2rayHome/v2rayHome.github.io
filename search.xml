@@ -4,6 +4,47 @@
   
     
     <entry>
+      <title>如何正确上暗网，链接洋葱浏览器，解决无法连接洋葱浏览器的问题</title>
+      <link href="/2023/09/10/dark-006/"/>
+      <url>/2023/09/10/dark-006/</url>
+      
+        <content type="html"><![CDATA[<p>教你快速上暗网，连接洋葱浏览器</p><a id="more"></a><p>暗网是一个有趣且迷人的世界，与大众互联网不同，他隐蔽神秘，似乎捉摸不透，只能通过洋葱浏览器访问，以下有几种常用方法可以实现快速连接洋葱浏览器</p><h1 id="暗网网桥"><a href="#暗网网桥" class="headerlink" title="暗网网桥"></a>暗网网桥</h1><p>官网推荐这种方式，类似于tor的中继功能，可以隐藏自己的真实IP，由tor自愿者捐献，但是网桥更为安全，因为其真实IP等信息是保密的，不会被监管者（黑客和白客、红客等）所监视和识别。</p><h2 id="如何获取免费可用的tor网桥地址"><a href="#如何获取免费可用的tor网桥地址" class="headerlink" title="如何获取免费可用的tor网桥地址"></a>如何获取免费可用的tor网桥地址</h2><p><strong>由于网桥地址不是公开的（保密性），用户需自行索取</strong></p><p><img src="https://s2.loli.net/2023/09/10/h4k2qyY5DXB1jTc.png" alt="image.png"></p><ol><li>bridges.torproject.org 按照说明操作</li><li>使用 Gmail 或 Riseup 的邮箱服务发送电子邮件至 <a href="mailto:&#x62;&#x72;&#105;&#x64;&#103;&#x65;&#115;&#64;&#x74;&#111;&#114;&#x70;&#114;&#111;&#106;&#x65;&#99;&#116;&#x2e;&#x6f;&#114;&#x67;">&#x62;&#x72;&#105;&#x64;&#103;&#x65;&#115;&#64;&#x74;&#111;&#114;&#x70;&#114;&#111;&#106;&#x65;&#99;&#116;&#x2e;&#x6f;&#114;&#x67;</a></li><li>在 Tor 浏览器中使用 Moat 获取网桥。</li><li>通过 Telegram 向 @GetBridgesBot 发送消息。在聊天中点击“开始”，或者输入/Start或/bridges。即可获取最新网桥</li></ol><h2 id="使用socks5等代理方式"><a href="#使用socks5等代理方式" class="headerlink" title="使用socks5等代理方式"></a>使用socks5等代理方式</h2><p>通过本地代理可以实现tor洋葱浏览器的连接，通过在机场购买梯子等代理服务 (点击这个获取socks5代理) <a href="https://xixi391.com/auth/register?code=vIWJ">xixicats顶级稳定机场注册地址</a></p><p><img src="https://res.cloudinary.com/dherizchh/image/upload/v1559378849/darkweb_ssr.jpg" alt="socks 5"></p><h1 id="如何在浏览器中使用tor网桥"><a href="#如何在浏览器中使用tor网桥" class="headerlink" title="如何在浏览器中使用tor网桥"></a>如何在浏览器中使用tor网桥</h1><ol><li>Tor 浏览器桌面版：点击菜单中的设置，然后点击“连接”。 找到网桥，找到选项“输入已知网桥”，点击“手动添加网桥”，然后输入你找到的网桥地址。</li><li>Tor 浏览器 Android或者iOS 版：点击“设置”’(⚙️)，然后点击“配置网桥”。开启“使用网桥”并选择“输入已知网桥”，并输入你获取的网桥地址。</li></ol><p><img src="https://s2.loli.net/2023/09/10/MbJCoayNLjPYHUD.png" alt="image.png"></p><h1 id="使用效果如下"><a href="#使用效果如下" class="headerlink" title="使用效果如下"></a>使用效果如下</h1><p><img src="https://s2.loli.net/2023/09/10/WkoK7YHP4dQxnJO.png" alt="image.png"></p><p>可以看到通过多层代理（洋葱般的结构）跳转到指定的页面，真正可以做到隐私保护，防止用心不良的人追踪到你的行踪。同样让各种犯罪行为也难以追踪，例如暗网在线杀人、暗网违禁物品交易等，成为了他们的可靠保护伞。</p><h1 id="如何在其他浏览器中使用tor代理，tor代理支持chrome、Firefox等浏览器"><a href="#如何在其他浏览器中使用tor代理，tor代理支持chrome、Firefox等浏览器" class="headerlink" title="如何在其他浏览器中使用tor代理，tor代理支持chrome、Firefox等浏览器"></a>如何在其他浏览器中使用tor代理，tor代理支持chrome、Firefox等浏览器</h1><p>在其他浏览器中也能适合使用tor代理服务，实现IP的隐藏，通过洋葱结构的多级网络节点跳转方式，可以防止IP追踪，保护个人隐私</p><h2 id="tor代理服务使用方法"><a href="#tor代理服务使用方法" class="headerlink" title="tor代理服务使用方法"></a>tor代理服务使用方法</h2><ol><li>通过命令找到运行服务的端口占用情况 ，例如Windows的 <code>netstat –ano</code>的命令，然后通过pid查询服务名称 <code>tasklist | findstr pid</code></li></ol><p><img src="https://s2.loli.net/2023/09/10/CkRATuiWMsZoXbt.png" alt="image.png"></p><ol start="2"><li>下载chrome插件 SwitchyOmega</li></ol><p>设置代理服务 ，选择协议 ip和端口，即可实现在chrome中是使用tor代理上网，保护我们的隐私</p><p> <a href="chrome-extension://padekgcemlokbadohgkifijomclgjgif/options.html#!/about">下载地址 </a></p><p><img src="https://s2.loli.net/2023/09/10/Jhoixekc4FE23WK.png" alt="image.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 暗网 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 暗网网址github </tag>
+            
+            <tag> 洋葱浏览器 </tag>
+            
+            <tag> 如何上暗网 </tag>
+            
+            <tag> 暗网网桥 </tag>
+            
+            <tag> 暗网代理 </tag>
+            
+            <tag> 暗网中文论坛 </tag>
+            
+            <tag> tor网桥 </tag>
+            
+            <tag> telegram暗网网址 </tag>
+            
+            <tag> teleram tor网桥 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>最新抖音直播源获取方法及代码，先到先得</title>
       <link href="/2023/09/10/fuli-120-1/"/>
       <url>/2023/09/10/fuli-120-1/</url>

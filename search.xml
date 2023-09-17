@@ -4,6 +4,89 @@
   
     
     <entry>
+      <title>显卡检测工具 GPU-Z 2.55.0 简体中文汉化单文件版</title>
+      <link href="/2023/09/17/d-8/"/>
+      <url>/2023/09/17/d-8/</url>
+      
+        <content type="html"><![CDATA[<p> 显卡检测工具 GPU-Z 2.55.0 简体中文汉化单文件版</p><a id="more"></a><h1 id="GPU-Z中文版"><a href="#GPU-Z中文版" class="headerlink" title="GPU-Z中文版"></a>GPU-Z中文版</h1><p>知名显卡识别软件TechPowerUp GPU-Z中文版是一款专业显卡检测工具的GPU测试软件,GPU-Z最新版提供了关于GPU图形显卡和CPU处理器的硬件信息.GPU-Z单执行文件,绿色便携免安装,界面直观,自带启动向导,运行后显示GPU核心及运行频率,传感器等参数信息,如同CPU-Z一样,这也是款必备的电脑硬件检测工具。</p><h1 id="GPU-Z中文版下载地址"><a href="#GPU-Z中文版下载地址" class="headerlink" title="GPU-Z中文版下载地址"></a>GPU-Z中文版下载地址</h1><p><a href="https://www.lanzoue.com/idzvu18a7yne">https://www.lanzoue.com/idzvu18a7yne</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 福利 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 福利 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>跳过爱奇艺视频暂停广告——油猴最新脚本</title>
+      <link href="/2023/09/17/d-7/"/>
+      <url>/2023/09/17/d-7/</url>
+      
+        <content type="html"><![CDATA[<p>快速享受无广告爱奇艺软件，你值得拥有</p><a id="more"></a><p><img src="https://s2.loli.net/2023/09/17/IAS4vjyJKiUDtMl.png" alt="image.png"></p><p>爱奇艺是一个十分恶心的应用，让我付费，不付费就天天看广告，十分厌烦，最近找到一个一个好方法，可以跳过爱奇艺广告</p><h1 id="爱奇艺视频广告跳过前提"><a href="#爱奇艺视频广告跳过前提" class="headerlink" title="爱奇艺视频广告跳过前提"></a>爱奇艺视频广告跳过前提</h1><p>安装油猴插件 ，在chrome市场中可以找到</p><h1 id="油猴爱奇艺视频广告跳过脚本下载地址"><a href="#油猴爱奇艺视频广告跳过脚本下载地址" class="headerlink" title="油猴爱奇艺视频广告跳过脚本下载地址"></a>油猴爱奇艺视频广告跳过脚本下载地址</h1><p><a href="https://greasyfork.org/zh-CN/scripts/474968">https://greasyfork.org/zh-CN/scripts/474968</a></p><h1 id="油猴爱奇艺视频广告跳过脚本原理"><a href="#油猴爱奇艺视频广告跳过脚本原理" class="headerlink" title="油猴爱奇艺视频广告跳过脚本原理"></a>油猴爱奇艺视频广告跳过脚本原理</h1><p>本着知其然，知其所以然的精神，概述其原理</p><h2 id="油猴爱奇艺视频广告跳过说明"><a href="#油猴爱奇艺视频广告跳过说明" class="headerlink" title="油猴爱奇艺视频广告跳过说明"></a>油猴爱奇艺视频广告跳过说明</h2><p>通过”劫持” 空格键 点击视频 点击暂停按钮 事件，自己实现暂停或播放功能，然后使用 stopPropagation 阻止冒泡。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 福利 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 福利 </tag>
+            
+            <tag> 爱奇艺广告过滤 </tag>
+            
+            <tag> 视频广告跳过 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何快速搭建制作一个暗网网站？</title>
+      <link href="/2023/09/17/dark-007/"/>
+      <url>/2023/09/17/dark-007/</url>
+      
+        <content type="html"><![CDATA[<p>快速搭建一个暗网网站和暗网网站搭建和暗网域名申请方法</p><a id="more"></a><p><img src="https://s2.loli.net/2023/09/17/kBPmgZabFHu3MWO.png" alt="image.png"></p><p>众所周知，暗网网站是一个安全和隐蔽的网站，可以保护你的个人隐私，防止IP等信息被追踪到，可以安全的进行你所喜欢的而且隐蔽保密的事情。</p><p>搭建一个暗网网站有以下几个步骤：</p><h1 id="申请域名"><a href="#申请域名" class="headerlink" title="申请域名"></a>申请域名</h1><h1 id="apt-一键安装"><a href="#apt-一键安装" class="headerlink" title="apt 一键安装"></a>apt 一键安装</h1><p>可以通过 apt 直接安装 tor 服务</p><p><code>apt install tor</code></p><p>如果不行请进行以下操作</p><h1 id="手动安装"><a href="#手动安装" class="headerlink" title="手动安装"></a>手动安装</h1><h2 id="修改-source-list"><a href="#修改-source-list" class="headerlink" title="修改 source.list"></a>修改 source.list</h2><p><code>sudo vi /etc/apt/sources.list</code><br>最后加下面这两行</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">deb https:&#x2F;&#x2F;deb.torproject.org&#x2F;torproject.org stretch main</span><br><span class="line">deb-src https:&#x2F;&#x2F;deb.torproject.org&#x2F;torproject.org stretch main</span><br></pre></td></tr></table></figure><h2 id="添加密钥"><a href="#添加密钥" class="headerlink" title="添加密钥"></a>添加密钥</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">curl https:&#x2F;&#x2F;deb.torproject.org&#x2F;torproject.org&#x2F;A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89.asc | gpg --import</span><br><span class="line">gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | apt-key add -</span><br></pre></td></tr></table></figure><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">apt update</span><br><span class="line">sudo apt-get install tor</span><br></pre></td></tr></table></figure><h2 id="dns-选择"><a href="#dns-选择" class="headerlink" title="dns 选择"></a>dns 选择</h2><p>这里默认是 deb.torproject.org<br>备选的有 deb-master.torproject.org、mirror.netcologne.de、tor.mirror.youam.de</p><h2 id="编辑-tor-配置文件"><a href="#编辑-tor-配置文件" class="headerlink" title="编辑 tor 配置文件"></a>编辑 tor 配置文件</h2><p><code>vi /etc/tor/torrc</code><br>添加</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">HiddenServiceDir &#x2F;var&#x2F;lib&#x2F;tor&#x2F;hidden_service&#x2F;</span><br><span class="line">HiddenServicePort 80 127.0.0.1:80</span><br></pre></td></tr></table></figure><h2 id="启动-tor"><a href="#启动-tor" class="headerlink" title="启动 tor"></a>启动 tor</h2><p><code>sudo service tor start</code><br>一启动，那么你的域名也就生成了</p><h2 id="查看域名"><a href="#查看域名" class="headerlink" title="查看域名"></a>查看域名</h2><p><code>cat /var/lib/tor/hidden_service/hostname</code></p><p>域名的结尾一定是onion，代表着洋葱网络<br>真正的安全网络，很难被追踪</p><h1 id="如何挑选一个心仪的onion域名"><a href="#如何挑选一个心仪的onion域名" class="headerlink" title="如何挑选一个心仪的onion域名"></a>如何挑选一个心仪的onion域名</h1><p>.onion 的域名生成是私钥 &gt;（rsa）&gt; 公钥 &gt;（sha1）&gt; 杂凑值 &gt;（base32 编码）&gt; 得到很丑的地址.onion。这道理跟比特币生成特定地址是同样的，但是因为计算量太大所以大家都会折衷，只要地址前几位有个人特色就好。</p><p>所以原理是，使用高性能运算机器，不停的一值尝试不同的私钥输入，看看有没有满意的结果，例如 Facebook 的洋葱地址 “facebookcorewwwi.onion”。相当的漂亮，相当的好看，要爆破这么多位，大概也只有 Facebook 等拥有超大规模服务器集群的厂商可以做得到，因为在密码学上的评估要暴力解出这样的结果以 1.5Ghz 处理器要 260 万年，惊为天人 Facebook 展现出庞大运算的惊人实力。这是暗网目前最漂亮的域名了。</p><p>项目地址：</p><p><a href="https://github.com/katmagic/Shallot">https://github.com/katmagic/Shallot</a></p><p><a href="https://github.com/lachesis/scallion">https://github.com/lachesis/scallion</a></p><p><a href="https://github.com/cathugger/mkp224o">https://github.com/cathugger/mkp224o</a></p><p>如果运行过程中缺了什么套件沒有办法运行</p><p>可以输入以下命令：</p><p>sudo apt-get install libssl-dev</p><h1 id="网站代码编写"><a href="#网站代码编写" class="headerlink" title="网站代码编写"></a>网站代码编写</h1><p>网站代码的编写不限制语言、框架和技术，甚至你可以制作静态网站</p><p>最为重要的一点是，不要使用js尽量，使用js可能让泄露信息，因此不要使用js</p><h1 id="成功发布"><a href="#成功发布" class="headerlink" title="成功发布"></a>成功发布</h1><p>在nginx 配置代理即可</p><p>端口是你通过命令配置的端口 </p><p><code>HiddenServicePort 80 127.0.0.1:80</code></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">输入命令 sudo vi &#x2F;etc&#x2F;nginx&#x2F;sites-available&#x2F;default</span><br><span class="line">改下文件 </span><br><span class="line">server &#123;</span><br><span class="line"></span><br><span class="line">listen   127.0.0.1:xxxx;</span><br><span class="line"></span><br><span class="line">…</span><br><span class="line">xxxx是你的端口号 不要设置成80为了安全</span><br><span class="line">&#125;</span><br><span class="line">重启服务 sudo service nginx restart</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>然后你就可以通过域名访问到自己的网站了，注意一定是通过洋葱浏览器，不懂得可以看我之前的文章</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 暗网 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 暗网 </tag>
+            
+            <tag> 暗网网站制作 </tag>
+            
+            <tag> 暗网网站搭建和暗网域名申请方法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>如何正确上暗网，链接洋葱浏览器，解决无法连接洋葱浏览器的问题</title>
       <link href="/2023/09/10/dark-006/"/>
       <url>/2023/09/10/dark-006/</url>

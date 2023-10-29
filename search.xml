@@ -4,6 +4,120 @@
   
     
     <entry>
+      <title>最新Telegram 机器人大全推荐，创建自己的telegram机器人</title>
+      <link href="2023/10/29/d-28/"/>
+      <url>2023/10/29/d-28/</url>
+      
+        <content type="html"><![CDATA[<a id="more"></a><h1 id="如何创建自己telegram的机器人"><a href="#如何创建自己telegram的机器人" class="headerlink" title="如何创建自己telegram的机器人"></a>如何创建自己telegram的机器人</h1><p>如果要创建一个Telegram机器人，可以按照以下步骤进行：</p><ol><li><p><strong>在Telegram中找到BotFather</strong>：</p><ul><li>打开Telegram，搜索 <code>@BotFather</code>，并与其开始对话。</li></ul></li><li><p><strong>创建一个新的机器人</strong>：</p><ul><li>使用 <code>/newbot</code> 命令开始创建一个新的机器人。</li></ul></li><li><p><strong>为你的机器人取一个名字</strong>：</p><ul><li>你需要为你的机器人选择一个显示名字。</li></ul></li><li><p><strong>选择一个用户名</strong>：</p><ul><li>BotFather会要求你选择一个唯一的用户名，以便其他用户可以通过它来与你的机器人交互。</li></ul></li><li><p><strong>获取你的API令牌</strong>：</p><ul><li>BotFather会生成一个API令牌（token），这是与Telegram API进行通信所需的凭证。请妥善保管这个令牌，不要分享给其他人。</li></ul></li><li><p><strong>开始编写你的机器人</strong>：</p><ul><li>现在你可以开始编写代码来与Telegram API进行交互。你可以使用任何你喜欢的编程语言，并使用Telegram的Bot API库。</li></ul><p>例如，如果你使用Python，你可以使用<code>python-telegram-bot</code>库来编写你的机器人。</p><p>安装该库：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install python-telegram-bot</span><br></pre></td></tr></table></figure><p>然后，你可以使用以下Python代码来与你的机器人进行交互：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> telegram <span class="keyword">import</span> Bot</span><br><span class="line"></span><br><span class="line">token = <span class="string">&#x27;YOUR_API_TOKEN&#x27;</span></span><br><span class="line">bot = Bot(token=token)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 获取机器人的基本信息</span></span><br><span class="line">bot_info = bot.get_me()</span><br><span class="line">print(bot_info)</span><br></pre></td></tr></table></figure><p>这只是一个简单的示例，你可以使用该库执行各种操作，例如接收消息、发送消息等。</p></li><li><p><strong>部署你的机器人</strong>：</p><ul><li>如果你希望你的机器人在互联网上运行，你需要将它部署在一个服务器上。你可以使用诸如Heroku、AWS等云服务，或者你可以在你自己的服务器上运行它。</li></ul></li><li><p><strong>将你的机器人添加到Telegram群组或私聊</strong>：</p><ul><li>打开Telegram，找到你的机器人，并与之开始对话，或者将它添加到你的群组中。</li></ul></li><li><p><strong>开始使用你的机器人</strong>：</p><ul><li>你的机器人现在已经可以与用户进行交互了。你可以根据你的需求添加更多功能，比如响应特定命令、发送消息等。</li></ul></li></ol><p>通过以上的步骤可以简单的创建一个属于自己的机器人！</p><h1 id="常用telegram机器人推荐"><a href="#常用telegram机器人推荐" class="headerlink" title="常用telegram机器人推荐"></a>常用telegram机器人推荐</h1><p>以下是一些常用的Telegram机器人，它们提供了各种不同的功能：</p><ol><li><p><strong>@PollBot</strong>：</p><ul><li>可以帮助你创建投票，并与群组成员进行投票交互。</li></ul></li><li><p><strong>@bing</strong>：</p><ul><li>提供了一个可以搜索Bing的接口，可以用于搜索图片、新闻等。</li></ul></li><li><p><strong>@getpubliclinkbot</strong>：</p><ul><li>可以帮你获取Telegram中的文件（如图片、音频、视频）的公共链接，方便分享给其他人。</li></ul></li><li><p><strong>@TempMailBot</strong>：</p><ul><li>提供临时电子邮件地址，用于注册网站或服务时保护你的隐私。</li></ul></li><li><p><strong>@gif</strong>：</p><ul><li>允许你搜索和发送GIF动画。</li></ul></li><li><p><strong>@Translate_Bot</strong>：</p><ul><li>提供了翻译功能，可以将文本翻译成其他语言。</li></ul></li><li><p><strong>@YouTube_Bot</strong>：</p><ul><li>允许你搜索和分享YouTube视频。</li></ul></li><li><p><strong>@Weatherman_bot</strong>：</p><ul><li>提供了天气预报，可以获取特定位置的天气信息。</li></ul></li><li><p><strong>@TriviaBot</strong>：</p><ul><li>提供了各种各样的小测验和问答游戏，可以在群组中提供娱乐。</li></ul></li><li><p><strong>@GitHubBot</strong>：</p><ul><li>允许你在Telegram中管理GitHub仓库，包括获取通知和执行一些基本操作。</li></ul></li><li><p><strong>@IMDbBot</strong>：</p><ul><li>提供了一个接口，可以搜索和获取IMDb电影和电视节目的信息。</li></ul></li></ol><h1 id="其他telegram-机器人推荐"><a href="#其他telegram-机器人推荐" class="headerlink" title="其他telegram 机器人推荐"></a>其他telegram 机器人推荐</h1><ol><li>特雷洛机器人 （@trello_bot）<br>Trello是一个用于任务和项目管理的看板。如果您厌倦了使用界面来管理项目，请尝试使用 Trello 机器人。使用 Telegram Trello 机器人使您能够创建卡片并从您的 Trello 板接收更新通知。</li></ol><p><img src="https://s2.loli.net/2023/10/29/EGYBAntk8qZboya.png" alt="image.png"></p><p>授权您的 Trello 帐户并选择看板。<br>授权您的 Trello 帐户并选择要连接的看板<br>在使用 Trello 机器人之前，您需要让机器人知道您要连接到哪个板。连接后，您可以将机器人添加到组中，创建新的 Trello 卡片，并接收卡片通知以及用户回复。</p><ol start="2"><li>Gmail 机器人 （@gmailbot）<br>想要使用 Gmail 不离开 Telegram?别再看了，这就是 官方 Gmail 机器人 进来了。随着 Gmail 机器人，您可以在其中接收、发送和回复电子邮件 Telegram 作为即时消息。</li></ol><p>这就是 Gmail 机器人看起来像收到电子邮件时的样子。收到的所有电子邮件都带有 Gmail 机器人在 上显示为即时消息 Telegram.<br>电子邮件的外观 Gmail 机器人 Telegram 聊天<br>开始使用 Gmail 机器人，只需在搜索栏中搜索@gmailbot，然后单击 开始 聊天。按照屏幕上的命令操作并授权您的帐户。授权后，您将开始在 Telegram 聊天。</p><ol start="3"><li>Spotify 机器人 （@spotify_to_mp3_bot）<br>没想到有音乐机器人 Telegram?再想一想。有了 Spotify机器人 ，你永远不必离开 Telegram 播放音乐。将您的Spotify帐户链接到Spotify Bot允许您从Spotify的数据库中搜索，收听和下载曲目。</li></ol><p>Spotify Bot 是另一个有用的 Telegram 机器人，您可以在其中下载和收听您的 Spotify 专辑和播放列表 Telegram 本身。<br>Spotify 机器人菜单列表<br>连接后，有一个菜单列表供您选择。开始收听您喜欢的曲目 Telegram，下载播放列表或专辑。</p><ol start="4"><li>多机器人 （@manybot）<br>创建一个 Telegram 对于许多人来说，从头开始的机器人似乎是一项艰巨的任务，但现在有 ManyBot 来解决这个问题。使用ManyBot，您可以在 Telegram 无需编码，例如广播消息，创建自定义命令和菜单，从RSS自动发布， Twitter 或 Youtube 并添加更多管理员来帮助您管理群组。</li></ol><p>创建一个新的 Telegram 机器人与Manybot。<br>Telegram 机器人列表：创建自己的机器人列表 Telegram 机器人与许多机器人<br>首先，按照 ManyBot 上的命令转到 BotFather 对于新的机器人名称和 API 令 牌。然后，链接您的 API 令牌返回 ManyBot 并给它一个简短的描述。现在，按照 ManyBot 上的其余说明进行操作，您就完成了！</p><p>而 Telegram 机器人可以安排和广播消息，机器人所有者会注意到没有地方可以回答发送给机器人的 1：1 消息。为此，您可以 创建一个 respond.io 帐户 和 连接您的 Telegram 机器人列表 到平台。</p><ol start="5"><li>文件转换器 （@newfileconverterbot）<br>想要将文件或图像从一种格式转换为另一种格式？现在，您可以使用 文件转换器 机器人轻松完成此操作。只需在搜索栏中搜索名称，然后单击开始。</li></ol><p>这是一个屏幕截图，显示了如何在您的 Telegram<br>Telegram 机器人列表：使用文件转换器轻松转换图像和文件<br>要转换文件或图像，只需将其发送给机器人即可。它将提供您可以转换为的格式列表。选择所需的格式，最后单击文件名以下载转换后的文件。</p><ol start="6"><li>DropMail.me （@DropMailBot）<br>对于那些不想在联系表单中分享他们的电子邮件地址以避免收到垃圾邮件的人， DropMail 为您提供了解决方案。此机器人提供临时电子邮件地址，并接收确认或激活电子邮件以完成注册过程。</li></ol><p>这是一个屏幕截图，显示了如何使用DropMail机器人生成临时电子邮件地址。<br>使用DropMail创建临时电子邮件地址<br>连接 DropMail.me 后。到您的 Telegram 帐户，单击“开始”，您将收到操作提示列表。若要生成新的临时电子邮件地址，请键入 /get。</p><ol start="7"><li>变焦 （@zoombot）<br>不想在手机或计算机上安装 Zoom 应用程序？不用担心。只需将 Zoom 机器人 与您的 Telegram .app。在这里，您可以直接从以下位置创建或加入会议 Telegram.</li></ol><p>这是一个屏幕截图，显示了如何使用 Zoom 从您的 Telegram<br>创建或加入 Zoom 会议 Telegram<br>要开始使用，请在网站上登录您现有的 Zoom 帐户，如果您没有帐户，请创建一个新帐户。现在，您可以通过单击聊天左下角的三条水平线来创建新会议或加入会议。</p><ol start="8"><li>文件到机器人 （@filetobot）<br>对于那些担心手机或计算机上存储空间不足的人，请考虑将文件添加到机器人Telegram.它充当您文件的外部云。在这里，您可以组织保存的图像，文档，文件等。</li></ol><p>这是一个屏幕截图，显示了如何将文件上传到机器人文件。<br>Telegram 机器人列表：将文件上传到 Telegram 用于保管<br>只需将您的文件发送到机器人，它就会将它们存储在云中。上传的文件也可以从机器人轻松下载！最好的事情是，文件大小没有限制，因此您可以上传任意数量的文件。</p><ol start="9"><li>巴别格拉姆 （@BabelgramBot）<br>您是否正在与说另一种语言的客户聊天？省去复制和粘贴消息的麻烦，并使用 Babelgram 帮助您在打字时立即进行翻译。</li></ol><p>这是一个屏幕截图，显示了如何使用Babelgram自动翻译您的消息 Telegram.<br>使用Babelgram从一种语言无缝翻译成另一种语言<br>首先，您需要将Babelgram添加到您的聊天中。每当您想用另一种语言交谈时，标记@BabelgramBot，然后将原始语言的代码和翻译语言的代码放入聊天中。然后，单击翻译后的文本以发送消息。</p><ol start="10"><li>韦伯博士 （@drwebbot）<br>没有什么比收到包含可能损坏设备的病毒的文件更可怕的了。确保通过以下方式传输的文件和链接的安全性 Telegram，从 韦伯博士那里得到咨询。它是第一个用于检查链接和文件的防病毒机器人，它适用于任何具有 Telegram 安装在上面。</li></ol><p>这是一张屏幕截图，显示了如何使用 Dr Web 扫描您的文档以查找病毒。<br>Telegram 机器人列表：将您的文件发送给 Dr. Web 进行检查<br>要检查文件是否可以安全打开，只需将其转发给Dr. Web即可。机器人将对其进行扫描，并告知您是否检测到任何威胁。</p><ol start="11"><li>IFTTT 机器人 （@IFTTT）<br>IFTTT，也称为 “如果这样那么” 是一个软件平台，它使用条件语句链连接和同步您喜欢的应用程序和设备。IFTTT 机器人链接 Telegram 到360其他服务，使您能够 以各种方式在群组，频道或作为个人助理使用它。</li></ol><h1 id="最实用telegram-机器人推荐"><a href="#最实用telegram-机器人推荐" class="headerlink" title="最实用telegram 机器人推荐"></a>最实用telegram 机器人推荐</h1><p>@GmailBot 官方机器人接收Gmail邮件</p><p>@GitHubBot 接收GitHub事件</p><p>@Thesubinfo_bot 订阅流量查询机器人</p><p>@freenodeshare_bot 免费节点分享</p><p>@gif GIF图搜索机器人</p><p>@He_weather_bot 天气预报</p><p>@areply_bot 解除消息在频道中的置顶</p><p>@apkdl_bot 下载apk</p><p>@wiki 搜索维基百科</p><p>@youtube 搜索油管视频</p><p>@YtbDownBot 油管视频下载</p><p>@Vkmusic_bot 音乐下载</p><p>@YtbDownBot 各类媒体下载</p><p>@Cctv365bot 电影搜索</p><hr><p>音乐搜索机器人</p><p>@VmomoVBot 好用无广告</p><p>@haoyybot 还不错就是有广告</p><p>@listen163music_bot 网易云音乐搜索</p><p>@WooMaiBot 可以在群组里使用的bot</p><hr><p>群组频道索引机器人</p><p>@SuperIndexBot 超级索引，收录多但广告也多</p><p>@PolarisseekBot 北极星搜索，还不错，有点小广告</p><p>@zh_secretary_bot 索引秘书，推荐几乎无广告</p><hr><p>群管机器人</p><p>@WuMingv2Bot 无名还不错</p><p>@GroupHelpBot 功能多</p><p>@keyworddel_bot 智能但有误删消息风险</p><p>@keyword_reply_bot 关键词回复</p><p>@policr_mini_bot 进群单独验证</p><p>@KinhRoBot 多功能，还没搞明白</p><p>@FengFAQBot 高自定义</p><p>@MissRose_bot 高自定义</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> telegram </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 福利 </tag>
+            
+            <tag> telegram </tag>
+            
+            <tag> Telegram机器人 </tag>
+            
+            <tag> Telegram bot </tag>
+            
+            <tag> 如何创建自己的telegram机器人 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>PDF阅读器--SumatraPDF下载地址</title>
+      <link href="2023/10/29/d-27/"/>
+      <url>2023/10/29/d-27/</url>
+      
+        <content type="html"><![CDATA[<p>好用的免费破解软件——pdf阅读器</p><a id="more"></a><p><img src="https://s2.loli.net/2023/10/29/T1xiyWwjv5r3sbM.png" alt="image.png"></p><h1 id="免费PDF阅读器介绍"><a href="#免费PDF阅读器介绍" class="headerlink" title="免费PDF阅读器介绍"></a>免费PDF阅读器介绍</h1><p>PDF阅读器–SumatraPDF </p><p>SumatraPDF是一个免费的PDF，EPUB，MOBI，CHM，XPS，DjVu，CBZ和CBR阅读器。</p><p>它体积小，启动速度快。</p><p>占用内存小</p><h1 id="免费PDF-SumatraPDF-下载地址"><a href="#免费PDF-SumatraPDF-下载地址" class="headerlink" title="免费PDF-SumatraPDF 下载地址"></a>免费PDF-SumatraPDF 下载地址</h1><p><a href="https://pan.lanzouj.com/iqMEe1cyuhyj">https://pan.lanzouj.com/iqMEe1cyuhyj</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 破解软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 福利 </tag>
+            
+            <tag> PDF阅读器 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>智能AI图片处理软件——模糊图片变清晰</title>
+      <link href="2023/10/29/d-26/"/>
+      <url>2023/10/29/d-26/</url>
+      
+        <content type="html"><![CDATA[<p>一键让你的模糊图片变得清晰</p><a id="more"></a><p><img src="https://s2.loli.net/2023/10/29/NSPMF7mkcTWvdR9.png" alt="image.png"></p><h1 id="智能AI处理软件的使用说明"><a href="#智能AI处理软件的使用说明" class="headerlink" title="智能AI处理软件的使用说明"></a>智能AI处理软件的使用说明</h1><p>logo下边有upscayl和settings两个选项，默认是upscyal,就是正常处理图片的操作界面，setting是设置可以根据自己的需求进行个性化设置<br>可以进行设置的地方有upscyal theme 也就是软件主题，软件安装成功后默认是暗黑色界面，可以在upscyal theme里边选择light,调成白色的</p><p>另外一处可以自行设置的是 image scyale，这个意思是可以推图片进行上采样，说人话就是可以对图片进行按比例放大多少倍</p><p>在image scyale 下边有个image compression这个选项可以根据个人需要进行调节，建议不要动，这个选项是对图片进行压缩的。<br>在image scyale 上边有个save image as 这个选项可以根据个人需要进行选择图片保存格式，有jpg,和png两个选择，默认png。<br>以上几处选项设置完成后，回到upscyal操作界面<br>batch upscyale 这个选项是批处理，如果需要处理的图片比较多，可以把图片放入文件夹然后选择要处理的文件夹，默认关闭<br>step 1<br>select folder(选择文件夹）可以根据自己需要选择要修复的图片<br>select 2<br>select model 选择模型<br>在这个选项下边有个 double upscyal 的选项，这个意思是2倍上采样，比如你在设置里边image scyal选项里边设置的缩放倍数是2，那么这个选项勾选后，输出图片就是源图片的4倍，根据需要勾选</p><p>软件提供了 6中模型供选择</p><p>step 3<br>set output folders 设置图片保存路径（不设置的话，默认和源图片路径一样）</p><p>setp 4<br>upscyal ，以上三部都操作完成后点击upscyal，就会处理图片，然后等待即可<br>完成结果如图</p><p>尝试了里边所有模型，第二个模型和最后一个模型效果最好，图片效果聊胜于无吧，我只试了一张图片，可能处理其他图片效果更好</p><h1 id="智能AI图片处理软件下载地址"><a href="#智能AI图片处理软件下载地址" class="headerlink" title="智能AI图片处理软件下载地址"></a>智能AI图片处理软件下载地址</h1><p>下载链接如下：<br>链接：<a href="https://pan.baidu.com/s/1NwwnxsrWy1DWNCSPDVZi0A?pwd=9u8v">https://pan.baidu.com/s/1NwwnxsrWy1DWNCSPDVZi0A?pwd=9u8v</a><br>提取码：9u8v</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 福利 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 福利 </tag>
+            
+            <tag> 智能AI图片处理软件 </tag>
+            
+            <tag> 图片模糊变清晰 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>小学数学题库大全，支持小学一年级到六年级</title>
+      <link href="2023/10/29/d-25/"/>
+      <url>2023/10/29/d-25/</url>
+      
+        <content type="html"><![CDATA[<p>小学数学自测APP+PC端（随机出题、限时答题、自动判题计分）</p><a id="more"></a><h1 id="小学数学题库大全"><a href="#小学数学题库大全" class="headerlink" title="小学数学题库大全"></a>小学数学题库大全</h1><p>自动出题<br>自动判断题<br>自动出结果</p><h1 id="小学数学下载地址"><a href="#小学数学下载地址" class="headerlink" title="小学数学下载地址"></a>小学数学下载地址</h1><p><a href="https://ynfiq.lanzoul.com/b0c0n34ng">https://ynfiq.lanzoul.com/b0c0n34ng</a><br>密码:dgta</p><p><a href="https://pan.baidu.com/s/15-0RizWdHAhW7RU_YR9TyA?pwd=3e4y">https://pan.baidu.com/s/15-0RizWdHAhW7RU_YR9TyA?pwd=3e4y</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 福利 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 福利 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>最新国内外免费短信接码平台大全</title>
       <link href="2023/10/26/d-24/"/>
       <url>2023/10/26/d-24/</url>

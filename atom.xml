@@ -6,7 +6,7 @@
   <link href="http://v2rayhome.github.io/atom.xml" rel="self"/>
   
   <link href="http://v2rayhome.github.io/"/>
-  <updated>2023-10-29T14:55:06.767Z</updated>
+  <updated>2023-10-31T16:42:14.389Z</updated>
   <id>http://v2rayhome.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何解决tor无法连接tor网络的问题</title>
+    <link href="http://v2rayhome.github.io/2023/11/01/dark-008/"/>
+    <id>http://v2rayhome.github.io/2023/11/01/dark-008/</id>
+    <published>2023-10-31T16:34:52.000Z</published>
+    <updated>2023-10-31T16:42:14.389Z</updated>
+    
+    <content type="html"><![CDATA[<p>如何解决tor无法连接tor网络的问题</p><a id="more"></a><p><img src="https://s2.loli.net/2023/11/01/xO4kEJAMbP5eGjh.png" alt="image.png"></p><h1 id="tor程序被windows误杀"><a href="#tor程序被windows误杀" class="headerlink" title="tor程序被windows误杀"></a>tor程序被windows误杀</h1><p>10月1日左右，Tor浏览器推出新的64位版本12.5.6，然而，该版本的Tor网络连接程序tor.exe却被最新版本的Windows 10与Windows 11的Windows Defender病毒和威胁防护程序识别为病毒威胁并删除进了隔离区</p><p>当tor.exe被杀以后，Tor浏览器无法正常连接Tor网络。很多境内网友表示已经翻墙并能成功访问Google等境外网站，Tor浏览器仍然无法正常连接，无论是默认配置（obfs4）还是选择Snowflake配置，或者更换其他网桥（bridge）</p><h1 id="如何解决tor无法上网的问题"><a href="#如何解决tor无法上网的问题" class="headerlink" title="如何解决tor无法上网的问题"></a>如何解决tor无法上网的问题</h1><ol><li>升级新的版本</li></ol><p>升级到最新的版本，可以解决此问题</p><ol start="2"><li>更换网桥</li></ol><p>Tor浏览器中的网桥配置错误也会导致无法连接到Tor网络，可以尝试恢复默认设置。</p><ol start="3"><li>本地防火墙限制问题</li></ol><p>可以关闭防火墙来解决无法上网的问题</p><ol start="4"><li>使用代理，不使用网桥上暗网</li></ol><p>通过使用代理可以实现上暗网，而且是不使用网桥上暗网</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;如何解决tor无法连接tor网络的问题&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="暗网" scheme="http://v2rayhome.github.io/categories/%E6%9A%97%E7%BD%91/"/>
+    
+    
+    <category term="暗网" scheme="http://v2rayhome.github.io/tags/%E6%9A%97%E7%BD%91/"/>
+    
+    <category term="tor浏览器上网" scheme="http://v2rayhome.github.io/tags/tor%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8A%E7%BD%91/"/>
+    
+  </entry>
   
   <entry>
     <title>最新Telegram 机器人大全推荐，创建自己的telegram机器人</title>
@@ -464,27 +487,6 @@
     <category term="福利" scheme="http://v2rayhome.github.io/tags/%E7%A6%8F%E5%88%A9/"/>
     
     <category term="全球网速测试工具" scheme="http://v2rayhome.github.io/tags/%E5%85%A8%E7%90%83%E7%BD%91%E9%80%9F%E6%B5%8B%E8%AF%95%E5%B7%A5%E5%85%B7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>小红书去广告版下载</title>
-    <link href="http://v2rayhome.github.io/2023/09/19/d-10/"/>
-    <id>http://v2rayhome.github.io/2023/09/19/d-10/</id>
-    <published>2023-09-19T05:53:23.000Z</published>
-    <updated>2023-09-19T05:54:29.532Z</updated>
-    
-    <content type="html"><![CDATA[<p>小红书 无广告版 v3.18.0</p><a id="more"></a><h1 id="小红书去广告版下载地址"><a href="#小红书去广告版下载地址" class="headerlink" title="小红书去广告版下载地址"></a>小红书去广告版下载地址</h1><p><a href="https://www.123pan.com/s/dV9DVv-oaDBh.html%E6%8F%90%E5%8F%96%E7%A0%81:52pj">https://www.123pan.com/s/dV9DVv-oaDBh.html提取码:52pj</a></p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;小红书 无广告版 v3.18.0&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="福利" scheme="http://v2rayhome.github.io/categories/%E7%A6%8F%E5%88%A9/"/>
-    
-    
-    <category term="福利" scheme="http://v2rayhome.github.io/tags/%E7%A6%8F%E5%88%A9/"/>
     
   </entry>
   

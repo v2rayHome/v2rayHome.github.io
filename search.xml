@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>如何解决tor无法连接tor网络的问题</title>
+      <link href="2023/11/01/dark-008/"/>
+      <url>2023/11/01/dark-008/</url>
+      
+        <content type="html"><![CDATA[<p>如何解决tor无法连接tor网络的问题</p><a id="more"></a><p><img src="https://s2.loli.net/2023/11/01/xO4kEJAMbP5eGjh.png" alt="image.png"></p><h1 id="tor程序被windows误杀"><a href="#tor程序被windows误杀" class="headerlink" title="tor程序被windows误杀"></a>tor程序被windows误杀</h1><p>10月1日左右，Tor浏览器推出新的64位版本12.5.6，然而，该版本的Tor网络连接程序tor.exe却被最新版本的Windows 10与Windows 11的Windows Defender病毒和威胁防护程序识别为病毒威胁并删除进了隔离区</p><p>当tor.exe被杀以后，Tor浏览器无法正常连接Tor网络。很多境内网友表示已经翻墙并能成功访问Google等境外网站，Tor浏览器仍然无法正常连接，无论是默认配置（obfs4）还是选择Snowflake配置，或者更换其他网桥（bridge）</p><h1 id="如何解决tor无法上网的问题"><a href="#如何解决tor无法上网的问题" class="headerlink" title="如何解决tor无法上网的问题"></a>如何解决tor无法上网的问题</h1><ol><li>升级新的版本</li></ol><p>升级到最新的版本，可以解决此问题</p><ol start="2"><li>更换网桥</li></ol><p>Tor浏览器中的网桥配置错误也会导致无法连接到Tor网络，可以尝试恢复默认设置。</p><ol start="3"><li>本地防火墙限制问题</li></ol><p>可以关闭防火墙来解决无法上网的问题</p><ol start="4"><li>使用代理，不使用网桥上暗网</li></ol><p>通过使用代理可以实现上暗网，而且是不使用网桥上暗网</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 暗网 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 暗网 </tag>
+            
+            <tag> tor浏览器上网 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>最新Telegram 机器人大全推荐，创建自己的telegram机器人</title>
       <link href="2023/10/29/d-28/"/>
       <url>2023/10/29/d-28/</url>

@@ -6,7 +6,7 @@
   <link href="http://v2rayhome.github.io/atom.xml" rel="self"/>
   
   <link href="http://v2rayhome.github.io/"/>
-  <updated>2023-12-03T11:42:44.295Z</updated>
+  <updated>2023-12-14T12:53:44.329Z</updated>
   <id>http://v2rayhome.github.io/</id>
   
   <author>
@@ -15,6 +15,48 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>openai 智能翻译神器 音视频转字幕小工具V1.2，支持上百种语言，生肉翻译神器</title>
+    <link href="http://v2rayhome.github.io/2023/12/14/fuli-122/"/>
+    <id>http://v2rayhome.github.io/2023/12/14/fuli-122/</id>
+    <published>2023-12-14T12:46:46.000Z</published>
+    <updated>2023-12-14T12:53:44.329Z</updated>
+    
+    <content type="html"><![CDATA[<p>音视频转字幕小工具V1.2，支持上百种语言</p><a id="more"></a><p>基于openAI的whisper的衍生项目faster whisper做成，支持100多种语言识别与翻译。</p><p>软件纯离线运行</p><ol><li>如下图</li></ol><p><img src="https://s2.loli.net/2023/12/14/1xnsmUDHTdYM6k2.png" alt="image.png"></p><ol start="2"><li>转换完成后，输出目录会有srt字幕格式和txt纯文本格式。</li></ol><ol start="3"><li>使用效果如下</li></ol><p><img src="https://s2.loli.net/2023/12/14/LR8KGzjxqMB6tIO.png" alt="image.png"></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;音视频转字幕小工具V1.2，支持上百种语言&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="福利" scheme="http://v2rayhome.github.io/categories/%E7%A6%8F%E5%88%A9/"/>
+    
+    
+    <category term="福利" scheme="http://v2rayhome.github.io/tags/%E7%A6%8F%E5%88%A9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>小红书作品采集工具 XHS_Downloader V1.6</title>
+    <link href="http://v2rayhome.github.io/2023/12/14/d-41/"/>
+    <id>http://v2rayhome.github.io/2023/12/14/d-41/</id>
+    <published>2023-12-14T12:43:15.000Z</published>
+    <updated>2023-12-14T12:44:55.466Z</updated>
+    
+    <content type="html"><![CDATA[<p>小红书作品采集工具 XHS_Downloader V1.6,开源体积小巧 </p><a id="more"></a><p><img src="https://s2.loli.net/2023/12/14/h8fVRkMldNpxOjt.png" alt="image.png"></p><p>XHS_Downloader V1.6是一款强大且开源的小红书图文/视频采集下载工具<br>实现功能:<br>1.采集获取图文/视频作品信息<br>2.下载小红书图文/视频作品<br>3.如作品已存在自动跳过<br>4.读取剪贴板实现批量下载功能</p><h1 id="小红书视频下载工具下载地址"><a href="#小红书视频下载工具下载地址" class="headerlink" title="小红书视频下载工具下载地址"></a>小红书视频下载工具下载地址</h1><p>下载地址:<a href="https://lm88.lanzouj.com/iB1Yi1hbxj0h">https://lm88.lanzouj.com/iB1Yi1hbxj0h</a> 密码52pj</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;小红书作品采集工具 XHS_Downloader V1.6,开源体积小巧 &lt;/p&gt;</summary>
+    
+    
+    
+    <category term="破解软件" scheme="http://v2rayhome.github.io/categories/%E7%A0%B4%E8%A7%A3%E8%BD%AF%E4%BB%B6/"/>
+    
+    
+    <category term="破解软件" scheme="http://v2rayhome.github.io/tags/%E7%A0%B4%E8%A7%A3%E8%BD%AF%E4%BB%B6/"/>
+    
+  </entry>
   
   <entry>
     <title>显卡检测工具 GPU-Z 2.56.0 简体中文汉化单文件版</title>
@@ -427,52 +469,6 @@
     <category term="福利" scheme="http://v2rayhome.github.io/tags/%E7%A6%8F%E5%88%A9/"/>
     
     <category term="PDF阅读器" scheme="http://v2rayhome.github.io/tags/PDF%E9%98%85%E8%AF%BB%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>智能AI图片处理软件——模糊图片变清晰</title>
-    <link href="http://v2rayhome.github.io/2023/10/29/d-26/"/>
-    <id>http://v2rayhome.github.io/2023/10/29/d-26/</id>
-    <published>2023-10-29T14:30:07.000Z</published>
-    <updated>2023-10-29T14:34:26.972Z</updated>
-    
-    <content type="html"><![CDATA[<p>一键让你的模糊图片变得清晰</p><a id="more"></a><p><img src="https://s2.loli.net/2023/10/29/NSPMF7mkcTWvdR9.png" alt="image.png"></p><h1 id="智能AI处理软件的使用说明"><a href="#智能AI处理软件的使用说明" class="headerlink" title="智能AI处理软件的使用说明"></a>智能AI处理软件的使用说明</h1><p>logo下边有upscayl和settings两个选项，默认是upscyal,就是正常处理图片的操作界面，setting是设置可以根据自己的需求进行个性化设置<br>可以进行设置的地方有upscyal theme 也就是软件主题，软件安装成功后默认是暗黑色界面，可以在upscyal theme里边选择light,调成白色的</p><p>另外一处可以自行设置的是 image scyale，这个意思是可以推图片进行上采样，说人话就是可以对图片进行按比例放大多少倍</p><p>在image scyale 下边有个image compression这个选项可以根据个人需要进行调节，建议不要动，这个选项是对图片进行压缩的。<br>在image scyale 上边有个save image as 这个选项可以根据个人需要进行选择图片保存格式，有jpg,和png两个选择，默认png。<br>以上几处选项设置完成后，回到upscyal操作界面<br>batch upscyale 这个选项是批处理，如果需要处理的图片比较多，可以把图片放入文件夹然后选择要处理的文件夹，默认关闭<br>step 1<br>select folder(选择文件夹）可以根据自己需要选择要修复的图片<br>select 2<br>select model 选择模型<br>在这个选项下边有个 double upscyal 的选项，这个意思是2倍上采样，比如你在设置里边image scyal选项里边设置的缩放倍数是2，那么这个选项勾选后，输出图片就是源图片的4倍，根据需要勾选</p><p>软件提供了 6中模型供选择</p><p>step 3<br>set output folders 设置图片保存路径（不设置的话，默认和源图片路径一样）</p><p>setp 4<br>upscyal ，以上三部都操作完成后点击upscyal，就会处理图片，然后等待即可<br>完成结果如图</p><p>尝试了里边所有模型，第二个模型和最后一个模型效果最好，图片效果聊胜于无吧，我只试了一张图片，可能处理其他图片效果更好</p><h1 id="智能AI图片处理软件下载地址"><a href="#智能AI图片处理软件下载地址" class="headerlink" title="智能AI图片处理软件下载地址"></a>智能AI图片处理软件下载地址</h1><p>下载链接如下：<br>链接：<a href="https://pan.baidu.com/s/1NwwnxsrWy1DWNCSPDVZi0A?pwd=9u8v">https://pan.baidu.com/s/1NwwnxsrWy1DWNCSPDVZi0A?pwd=9u8v</a><br>提取码：9u8v</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;一键让你的模糊图片变得清晰&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="福利" scheme="http://v2rayhome.github.io/categories/%E7%A6%8F%E5%88%A9/"/>
-    
-    
-    <category term="福利" scheme="http://v2rayhome.github.io/tags/%E7%A6%8F%E5%88%A9/"/>
-    
-    <category term="智能AI图片处理软件" scheme="http://v2rayhome.github.io/tags/%E6%99%BA%E8%83%BDAI%E5%9B%BE%E7%89%87%E5%A4%84%E7%90%86%E8%BD%AF%E4%BB%B6/"/>
-    
-    <category term="图片模糊变清晰" scheme="http://v2rayhome.github.io/tags/%E5%9B%BE%E7%89%87%E6%A8%A1%E7%B3%8A%E5%8F%98%E6%B8%85%E6%99%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>小学数学题库大全，支持小学一年级到六年级</title>
-    <link href="http://v2rayhome.github.io/2023/10/29/d-25/"/>
-    <id>http://v2rayhome.github.io/2023/10/29/d-25/</id>
-    <published>2023-10-29T14:27:56.000Z</published>
-    <updated>2023-10-29T14:29:58.839Z</updated>
-    
-    <content type="html"><![CDATA[<p>小学数学自测APP+PC端（随机出题、限时答题、自动判题计分）</p><a id="more"></a><h1 id="小学数学题库大全"><a href="#小学数学题库大全" class="headerlink" title="小学数学题库大全"></a>小学数学题库大全</h1><p>自动出题<br>自动判断题<br>自动出结果</p><h1 id="小学数学下载地址"><a href="#小学数学下载地址" class="headerlink" title="小学数学下载地址"></a>小学数学下载地址</h1><p><a href="https://ynfiq.lanzoul.com/b0c0n34ng">https://ynfiq.lanzoul.com/b0c0n34ng</a><br>密码:dgta</p><p><a href="https://pan.baidu.com/s/15-0RizWdHAhW7RU_YR9TyA?pwd=3e4y">https://pan.baidu.com/s/15-0RizWdHAhW7RU_YR9TyA?pwd=3e4y</a></p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;小学数学自测APP+PC端（随机出题、限时答题、自动判题计分）&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="福利" scheme="http://v2rayhome.github.io/categories/%E7%A6%8F%E5%88%A9/"/>
-    
-    
-    <category term="福利" scheme="http://v2rayhome.github.io/tags/%E7%A6%8F%E5%88%A9/"/>
     
   </entry>
   

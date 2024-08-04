@@ -4,6 +4,106 @@
   
     
     <entry>
+      <title>最新 双色球助手免费工具下载</title>
+      <link href="2024/08/04/fuli-155/"/>
+      <url>2024/08/04/fuli-155/</url>
+      
+        <content type="html"><![CDATA[<p> 双色球助手免费工具下载</p><a id="more"></a><p><img src="https://s2.loli.net/2024/08/04/69bay1rzYOBXNtm.png" alt="image.png"></p><p>开发目的：目前看开奖，需要去网页、或者需要打开app查看等等。有的还有广告体验很不好！主要是慢！(本人也极致喜欢简洁！)因此使用flutter开发了一款能快速查看开奖信息的app，开屏就能看结果。仅1秒。还可以实时看开奖直播，更加快速的拿到第一手开奖结果。这是本软件的主要功能！<br>至于选号，格外做的吧，就是让你直观看到自己选的号。可以本人一个一个点。也可以随机选，随机完也可以看见不满意的号，手动更换然后点击添加选号，会放入下方列表。清空所选是清空上方点击状态的，不是清空下方列表。</p><h1 id="免费双色球助手-下载地址"><a href="#免费双色球助手-下载地址" class="headerlink" title="免费双色球助手 下载地址"></a>免费双色球助手 下载地址</h1><p><a href="https://www.123pan.cn/s/RIFDVv-vdrn3.html">https://www.123pan.cn/s/RIFDVv-vdrn3.html</a>?<br>提取码:mqNA</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 福利 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 福利 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>微信公众号视频视频批量下载</title>
+      <link href="2024/08/04/fuli-154/"/>
+      <url>2024/08/04/fuli-154/</url>
+      
+        <content type="html"><![CDATA[<p>微信视频批量下载-python源代码</p><a id="more"></a><h1 id="微信视频号下载python代码如下"><a href="#微信视频号下载python代码如下" class="headerlink" title="微信视频号下载python代码如下"></a>微信视频号下载python代码如下</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br></pre></td><td class="code"><pre><span class="line">def download_video(video_url: str, filename: str):</span><br><span class="line">    &quot;&quot;&quot;Download the video given the video URL.&quot;&quot;&quot;</span><br><span class="line">    print(f&quot;  🔍 Downloading &#123;filename&#125;...&quot;, end&#x3D;&quot;\r&quot;)</span><br><span class="line">    tmp_file_path &#x3D; filename + &quot;.tmp&quot;</span><br><span class="line">    if not path.exists(filename) or path.exists(tmp_file_path):</span><br><span class="line">        try:</span><br><span class="line">            r &#x3D; x.get(video_url, headers&#x3D;VIDEO_HEADERS, stream&#x3D;True)</span><br><span class="line">            r.raise_for_status() # Raise an exception if the response is not 200 OK</span><br><span class="line">            total_size &#x3D; int(r.headers[&quot;Content-Length&quot;])</span><br><span class="line">            if path.exists(tmp_file_path):</span><br><span class="line">                tmp_size &#x3D; path.getsize(tmp_file_path)</span><br><span class="line">                print(f&quot;  Already downloaded &#123;tmp_size&#125; Bytes out of &#123;total_size&#125; Bytes (&#123;100 * tmp_size &#x2F; total_size:.2f&#125;%)&quot;)</span><br><span class="line">                if tmp_size &#x3D;&#x3D; total_size:</span><br><span class="line">                    move(tmp_file_path, filename)</span><br><span class="line">                    print(&quot;  ✅ Downloaded &#123;filename&#125; successfully.&quot;)</span><br><span class="line">                    return True</span><br><span class="line">                elif tmp_size &gt; total_size:</span><br><span class="line">                    print(&quot;  ❌ The downloaded .tmp file is larger than the remote file. It is likely corrupted.&quot;)</span><br><span class="line">                    return False</span><br><span class="line">            else:</span><br><span class="line">                tmp_size &#x3D; 0</span><br><span class="line">                print(f&quot;  File is &#123;total_size&#125; Bytes, downloading...&quot;)</span><br><span class="line"></span><br><span class="line">            with open(tmp_file_path, &quot;ab&quot;) as f:</span><br><span class="line">                retries &#x3D; 0</span><br><span class="line">                while retries &lt; RETRIES:</span><br><span class="line">                    try:</span><br><span class="line">                        res &#x3D; x.get(video_url, headers&#x3D;&#123;**VIDEO_HEADERS, &quot;Range&quot;: f&quot;bytes&#x3D;&#123;tmp_size&#125;-&quot;&#125;, stream&#x3D;True)</span><br><span class="line">                        for chunk in res.iter_content(chunk_size&#x3D;CHUNK_SIZE):</span><br><span class="line">                            tmp_size +&#x3D; len(chunk)</span><br><span class="line">                            f.write(chunk)</span><br><span class="line">                            f.flush()</span><br><span class="line"></span><br><span class="line">                            done &#x3D; int(50 * tmp_size &#x2F; total_size)</span><br><span class="line">                            print(f&quot;\r  [&#123;&#39;█&#39; * done&#125;&#123;&#39; &#39; * (50 - done)&#125;] &#123;100 * tmp_size &#x2F; total_size:.0f&#125;%&quot;, end&#x3D;&quot;&quot;)</span><br><span class="line">                        break</span><br><span class="line">                    except RequestException as e:</span><br><span class="line">                        retries +&#x3D; 1</span><br><span class="line">                        print(f&quot;\n  ⚠️ Retrying... (&#123;retries&#125;&#x2F;&#123;RETRIES&#125;)&quot;)</span><br><span class="line">                        sleep(INTERVAL)</span><br><span class="line">                else:</span><br><span class="line">                    print(f&quot;\n  ❌ Failed to download &#123;filename&#125; after &#123;RETRIES&#125; retries.&quot;)</span><br><span class="line">                    return False</span><br><span class="line"></span><br><span class="line">            if tmp_size &#x3D;&#x3D; total_size:</span><br><span class="line">                move(tmp_file_path, filename)</span><br><span class="line">                print(f&quot;\n  ✅ Downloaded &#123;filename&#125; successfully.&quot;)</span><br><span class="line"></span><br><span class="line">        except RequestException as e:</span><br><span class="line">            # Log the error</span><br><span class="line">            print(e)</span><br><span class="line">            with open(filename + &#39;_log.txt&#39;, &#39;a+&#39;, encoding &#x3D; &#39;UTF-8&#39;) as f:</span><br><span class="line">                f.write(&#39;%s, %s\n&#39; % (video_url, e))</span><br><span class="line">            print(f&quot;  ❌ Failed to download &#123;filename&#125;.&quot;)</span><br><span class="line">    else:</span><br><span class="line">        print(f&quot;  ✅ Downloaded &#123;filename&#125; successfully.&quot;)</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 福利 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 福利 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>三上悠亞正式宣布引退，终身作品合集整理</title>
+      <link href="2024/08/04/fuli-153/"/>
+      <url>2024/08/04/fuli-153/</url>
+      
+        <content type="html"><![CDATA[<p>宅男福利！三上悠亞正式宣布引退，生平作品合集整理！</p><a id="more"></a><p><img src="https://s2.loli.net/2024/08/04/1XIGC42q8px53hS.png" alt="image.png"></p><p>少女偶像团体SKE48Team S出身的女优三上悠亚，2015年从AV界出道，凭借天使脸孔与魔鬼身材一炮而红，名气更胜女团时期，这些年无论人气还是作品销量都维持顶尖，因此被封为「国民AV女优」。她近年与前东家约满后宣布自立门户，不少粉丝担忧是退出AV界的讯号，今（13）日她正式宣布真的要引退了，让许多粉丝崩溃。</p><h1 id="三上悠亚终身成就视频下载"><a href="#三上悠亚终身成就视频下载" class="headerlink" title="三上悠亚终身成就视频下载"></a>三上悠亚终身成就视频下载</h1><p><a href="magnet:?xt=urn:btih:CE0C49525004308ADADE1EADFA9127C58D1D4ED1">磁力下载</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 福利 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 福利 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>宅男福利，维多利亚的秘密2005~2018 附带花絮采访</title>
+      <link href="2024/08/04/fuli-152/"/>
+      <url>2024/08/04/fuli-152/</url>
+      
+        <content type="html"><![CDATA[<p>维多利亚的秘密2005~2018 附带花絮采访</p><a id="more"></a><p><img src="https://s2.loli.net/2024/08/04/3bBF8Dc26aphHQW.png" alt="image.png"></p><p>资源信息<br>维多利亚的秘密2005~2018 附带花絮采访夸，克网盘资源下载。</p><p>下载地址 - <a href="https://pan.quark.cn/s/109dd59bc4b8">https://pan.quark.cn/s/109dd59bc4b8</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 福利 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 福利 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>2024目前最实惠稳定的ssr v2ray机场推荐，注册即可免费使用</title>
       <link href="2024/08/04/fuli-151/"/>
       <url>2024/08/04/fuli-151/</url>

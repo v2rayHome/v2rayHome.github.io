@@ -6,7 +6,7 @@
   <link href="http://v2rayhome.github.io/atom.xml" rel="self"/>
   
   <link href="http://v2rayhome.github.io/"/>
-  <updated>2024-08-03T17:34:36.012Z</updated>
+  <updated>2024-08-04T15:45:46.823Z</updated>
   <id>http://v2rayhome.github.io/</id>
   
   <author>
@@ -15,6 +15,90 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>最新 双色球助手免费工具下载</title>
+    <link href="http://v2rayhome.github.io/2024/08/04/fuli-155/"/>
+    <id>http://v2rayhome.github.io/2024/08/04/fuli-155/</id>
+    <published>2024-08-04T15:43:49.000Z</published>
+    <updated>2024-08-04T15:45:46.823Z</updated>
+    
+    <content type="html"><![CDATA[<p> 双色球助手免费工具下载</p><a id="more"></a><p><img src="https://s2.loli.net/2024/08/04/69bay1rzYOBXNtm.png" alt="image.png"></p><p>开发目的：目前看开奖，需要去网页、或者需要打开app查看等等。有的还有广告体验很不好！主要是慢！(本人也极致喜欢简洁！)因此使用flutter开发了一款能快速查看开奖信息的app，开屏就能看结果。仅1秒。还可以实时看开奖直播，更加快速的拿到第一手开奖结果。这是本软件的主要功能！<br>至于选号，格外做的吧，就是让你直观看到自己选的号。可以本人一个一个点。也可以随机选，随机完也可以看见不满意的号，手动更换然后点击添加选号，会放入下方列表。清空所选是清空上方点击状态的，不是清空下方列表。</p><h1 id="免费双色球助手-下载地址"><a href="#免费双色球助手-下载地址" class="headerlink" title="免费双色球助手 下载地址"></a>免费双色球助手 下载地址</h1><p><a href="https://www.123pan.cn/s/RIFDVv-vdrn3.html">https://www.123pan.cn/s/RIFDVv-vdrn3.html</a>?<br>提取码:mqNA</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt; 双色球助手免费工具下载&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="福利" scheme="http://v2rayhome.github.io/categories/%E7%A6%8F%E5%88%A9/"/>
+    
+    
+    <category term="福利" scheme="http://v2rayhome.github.io/tags/%E7%A6%8F%E5%88%A9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>微信公众号视频视频批量下载</title>
+    <link href="http://v2rayhome.github.io/2024/08/04/fuli-154/"/>
+    <id>http://v2rayhome.github.io/2024/08/04/fuli-154/</id>
+    <published>2024-08-04T15:34:23.000Z</published>
+    <updated>2024-08-04T15:39:05.087Z</updated>
+    
+    <content type="html"><![CDATA[<p>微信视频批量下载-python源代码</p><a id="more"></a><h1 id="微信视频号下载python代码如下"><a href="#微信视频号下载python代码如下" class="headerlink" title="微信视频号下载python代码如下"></a>微信视频号下载python代码如下</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br></pre></td><td class="code"><pre><span class="line">def download_video(video_url: str, filename: str):</span><br><span class="line">    &quot;&quot;&quot;Download the video given the video URL.&quot;&quot;&quot;</span><br><span class="line">    print(f&quot;  🔍 Downloading &#123;filename&#125;...&quot;, end&#x3D;&quot;\r&quot;)</span><br><span class="line">    tmp_file_path &#x3D; filename + &quot;.tmp&quot;</span><br><span class="line">    if not path.exists(filename) or path.exists(tmp_file_path):</span><br><span class="line">        try:</span><br><span class="line">            r &#x3D; x.get(video_url, headers&#x3D;VIDEO_HEADERS, stream&#x3D;True)</span><br><span class="line">            r.raise_for_status() # Raise an exception if the response is not 200 OK</span><br><span class="line">            total_size &#x3D; int(r.headers[&quot;Content-Length&quot;])</span><br><span class="line">            if path.exists(tmp_file_path):</span><br><span class="line">                tmp_size &#x3D; path.getsize(tmp_file_path)</span><br><span class="line">                print(f&quot;  Already downloaded &#123;tmp_size&#125; Bytes out of &#123;total_size&#125; Bytes (&#123;100 * tmp_size &#x2F; total_size:.2f&#125;%)&quot;)</span><br><span class="line">                if tmp_size &#x3D;&#x3D; total_size:</span><br><span class="line">                    move(tmp_file_path, filename)</span><br><span class="line">                    print(&quot;  ✅ Downloaded &#123;filename&#125; successfully.&quot;)</span><br><span class="line">                    return True</span><br><span class="line">                elif tmp_size &gt; total_size:</span><br><span class="line">                    print(&quot;  ❌ The downloaded .tmp file is larger than the remote file. It is likely corrupted.&quot;)</span><br><span class="line">                    return False</span><br><span class="line">            else:</span><br><span class="line">                tmp_size &#x3D; 0</span><br><span class="line">                print(f&quot;  File is &#123;total_size&#125; Bytes, downloading...&quot;)</span><br><span class="line"></span><br><span class="line">            with open(tmp_file_path, &quot;ab&quot;) as f:</span><br><span class="line">                retries &#x3D; 0</span><br><span class="line">                while retries &lt; RETRIES:</span><br><span class="line">                    try:</span><br><span class="line">                        res &#x3D; x.get(video_url, headers&#x3D;&#123;**VIDEO_HEADERS, &quot;Range&quot;: f&quot;bytes&#x3D;&#123;tmp_size&#125;-&quot;&#125;, stream&#x3D;True)</span><br><span class="line">                        for chunk in res.iter_content(chunk_size&#x3D;CHUNK_SIZE):</span><br><span class="line">                            tmp_size +&#x3D; len(chunk)</span><br><span class="line">                            f.write(chunk)</span><br><span class="line">                            f.flush()</span><br><span class="line"></span><br><span class="line">                            done &#x3D; int(50 * tmp_size &#x2F; total_size)</span><br><span class="line">                            print(f&quot;\r  [&#123;&#39;█&#39; * done&#125;&#123;&#39; &#39; * (50 - done)&#125;] &#123;100 * tmp_size &#x2F; total_size:.0f&#125;%&quot;, end&#x3D;&quot;&quot;)</span><br><span class="line">                        break</span><br><span class="line">                    except RequestException as e:</span><br><span class="line">                        retries +&#x3D; 1</span><br><span class="line">                        print(f&quot;\n  ⚠️ Retrying... (&#123;retries&#125;&#x2F;&#123;RETRIES&#125;)&quot;)</span><br><span class="line">                        sleep(INTERVAL)</span><br><span class="line">                else:</span><br><span class="line">                    print(f&quot;\n  ❌ Failed to download &#123;filename&#125; after &#123;RETRIES&#125; retries.&quot;)</span><br><span class="line">                    return False</span><br><span class="line"></span><br><span class="line">            if tmp_size &#x3D;&#x3D; total_size:</span><br><span class="line">                move(tmp_file_path, filename)</span><br><span class="line">                print(f&quot;\n  ✅ Downloaded &#123;filename&#125; successfully.&quot;)</span><br><span class="line"></span><br><span class="line">        except RequestException as e:</span><br><span class="line">            # Log the error</span><br><span class="line">            print(e)</span><br><span class="line">            with open(filename + &#39;_log.txt&#39;, &#39;a+&#39;, encoding &#x3D; &#39;UTF-8&#39;) as f:</span><br><span class="line">                f.write(&#39;%s, %s\n&#39; % (video_url, e))</span><br><span class="line">            print(f&quot;  ❌ Failed to download &#123;filename&#125;.&quot;)</span><br><span class="line">    else:</span><br><span class="line">        print(f&quot;  ✅ Downloaded &#123;filename&#125; successfully.&quot;)</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;微信视频批量下载-python源代码&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="福利" scheme="http://v2rayhome.github.io/categories/%E7%A6%8F%E5%88%A9/"/>
+    
+    
+    <category term="福利" scheme="http://v2rayhome.github.io/tags/%E7%A6%8F%E5%88%A9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>三上悠亞正式宣布引退，终身作品合集整理</title>
+    <link href="http://v2rayhome.github.io/2024/08/04/fuli-153/"/>
+    <id>http://v2rayhome.github.io/2024/08/04/fuli-153/</id>
+    <published>2024-08-04T15:30:10.000Z</published>
+    <updated>2024-08-04T15:34:17.352Z</updated>
+    
+    <content type="html"><![CDATA[<p>宅男福利！三上悠亞正式宣布引退，生平作品合集整理！</p><a id="more"></a><p><img src="https://s2.loli.net/2024/08/04/1XIGC42q8px53hS.png" alt="image.png"></p><p>少女偶像团体SKE48Team S出身的女优三上悠亚，2015年从AV界出道，凭借天使脸孔与魔鬼身材一炮而红，名气更胜女团时期，这些年无论人气还是作品销量都维持顶尖，因此被封为「国民AV女优」。她近年与前东家约满后宣布自立门户，不少粉丝担忧是退出AV界的讯号，今（13）日她正式宣布真的要引退了，让许多粉丝崩溃。</p><h1 id="三上悠亚终身成就视频下载"><a href="#三上悠亚终身成就视频下载" class="headerlink" title="三上悠亚终身成就视频下载"></a>三上悠亚终身成就视频下载</h1><p><a href="magnet:?xt=urn:btih:CE0C49525004308ADADE1EADFA9127C58D1D4ED1">磁力下载</a></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;宅男福利！三上悠亞正式宣布引退，生平作品合集整理！&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="福利" scheme="http://v2rayhome.github.io/categories/%E7%A6%8F%E5%88%A9/"/>
+    
+    
+    <category term="福利" scheme="http://v2rayhome.github.io/tags/%E7%A6%8F%E5%88%A9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>宅男福利，维多利亚的秘密2005~2018 附带花絮采访</title>
+    <link href="http://v2rayhome.github.io/2024/08/04/fuli-152/"/>
+    <id>http://v2rayhome.github.io/2024/08/04/fuli-152/</id>
+    <published>2024-08-04T15:27:49.000Z</published>
+    <updated>2024-08-04T15:30:05.522Z</updated>
+    
+    <content type="html"><![CDATA[<p>维多利亚的秘密2005~2018 附带花絮采访</p><a id="more"></a><p><img src="https://s2.loli.net/2024/08/04/3bBF8Dc26aphHQW.png" alt="image.png"></p><p>资源信息<br>维多利亚的秘密2005~2018 附带花絮采访夸，克网盘资源下载。</p><p>下载地址 - <a href="https://pan.quark.cn/s/109dd59bc4b8">https://pan.quark.cn/s/109dd59bc4b8</a></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;维多利亚的秘密2005~2018 附带花絮采访&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="福利" scheme="http://v2rayhome.github.io/categories/%E7%A6%8F%E5%88%A9/"/>
+    
+    
+    <category term="福利" scheme="http://v2rayhome.github.io/tags/%E7%A6%8F%E5%88%A9/"/>
+    
+  </entry>
   
   <entry>
     <title>2024目前最实惠稳定的ssr v2ray机场推荐，注册即可免费使用</title>
@@ -344,90 +428,6 @@
     
     
     <summary type="html">&lt;p&gt;U盘车载专用音乐 3068 首 24G&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="福利" scheme="http://v2rayhome.github.io/categories/%E7%A6%8F%E5%88%A9/"/>
-    
-    
-    <category term="福利" scheme="http://v2rayhome.github.io/tags/%E7%A6%8F%E5%88%A9/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>最新下架短剧合集</title>
-    <link href="http://v2rayhome.github.io/2024/04/09/fuli-135/"/>
-    <id>http://v2rayhome.github.io/2024/04/09/fuli-135/</id>
-    <published>2024-04-09T08:46:49.000Z</published>
-    <updated>2024-04-09T08:49:41.456Z</updated>
-    
-    <content type="html"><![CDATA[<p>下架短剧合集</p><a id="more"></a><p><a href="https://pan.quark.cn/s/ca65874c7d09">最新下架短剧合集</a></p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;下架短剧合集&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="福利" scheme="http://v2rayhome.github.io/categories/%E7%A6%8F%E5%88%A9/"/>
-    
-    
-    <category term="福利" scheme="http://v2rayhome.github.io/tags/%E7%A6%8F%E5%88%A9/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Mac 虚拟机：Parallels Desktop v19.3 TNT 直装版</title>
-    <link href="http://v2rayhome.github.io/2024/04/09/fuli-134/"/>
-    <id>http://v2rayhome.github.io/2024/04/09/fuli-134/</id>
-    <published>2024-04-09T08:42:39.000Z</published>
-    <updated>2024-04-09T08:47:54.303Z</updated>
-    
-    <content type="html"><![CDATA[<p>Mac 虚拟机：Parallels Desktop v19.3 TNT 直装版</p><a id="more"></a><p><img src="https://s2.loli.net/2024/04/09/nBNrHX1ToEmuZg7.png" alt="image.png"></p><p>Parallels Desktop for Mac是功能强大灵活度高的虚拟化方案，无需重启即可在同一台电脑上随时访问Windows和Mac两个系统上的众多应用程序。</p><p>Parallels Desktop 是一款专业的Mac虚拟机，可在Windows 与Mac OS 应用程序之间随意拖放文件并直接从Mac dock 启动Windows 程序，能够在Mac上以最便捷、快速、高效的方式运行Windows。</p><p>x 功能简介<br>便捷安全向导：便捷的虚拟机安装向导可直接通过系统镜像包及U盘来安装系统，且能自动查找操作系统无需担心Mac上是否有光驱，也可手动选择媒介类型范围。并保证Mac上和Windows虚拟机中所有一切程序的安全。<br>多虚拟机支持：Windows、Linux、Chrome OS、Mac OS、Android OS等。 其Linux虚拟机整合可实现共享应用程序、共享配置文件和自动更新 虚拟机管理工具：通过图形模式查看虚拟机使用的 Mac 处理器与内存来监控 Mac 资源。<br>设备共享：进一步集成整合Windows与Mac，无缝共享Windows与Mac之间的蓝牙设备，Mac废纸篓与Windows回收站整合，只需要管理一个。<br>安全稳定性：完美的整体性能与超强的稳定性：电池寿命更长、显卡可达 1GB、通过Intel AES-NI加速虚拟机加密，所有的Windows程序都会进行安全加密。<br>手势共用：Mac和Windows深度整合，可以使用Mac的查字典手势在Windows中查字典。<br>Safari中引用IE按钮：当网页在 Safari 中运行不好时，点击一下”IE“图标就可以从Safari切换到Internet Explorer中显示该网页。<br>拖放附件到 Outlook：轻松地从桌面拖放文件到Dock图标用以在Windows的Outlook中作为新邮件的附件。</p><p><a href="https://pan.baidu.com/s/1w3RE0aLO_GBscG-SGTaDSg?pwd=zapu">Mac 虚拟机：Parallels Desktop v19.3 TNT 直装版</a></p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;Mac 虚拟机：Parallels Desktop v19.3 TNT 直装版&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="福利" scheme="http://v2rayhome.github.io/categories/%E7%A6%8F%E5%88%A9/"/>
-    
-    
-    <category term="福利" scheme="http://v2rayhome.github.io/tags/%E7%A6%8F%E5%88%A9/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>TikTok 抖音国际版 v34.1.4 去广告解锁全部国家任意切换</title>
-    <link href="http://v2rayhome.github.io/2024/04/09/fuli-133/"/>
-    <id>http://v2rayhome.github.io/2024/04/09/fuli-133/</id>
-    <published>2024-04-09T08:32:02.000Z</published>
-    <updated>2024-04-09T08:36:47.773Z</updated>
-    
-    <content type="html"><![CDATA[<p>TikTok 抖音国际版 v34.1.4 去广告解锁全部国家任意切换</p><a id="more"></a><p><img src="https://s2.loli.net/2024/04/09/bJcEXYyBs7zP3Zr.png" alt="image.png"></p><ul><li>去所有广告、去保存视频水印、解除国家/地区限制，无视区域封锁</li><li>提供额外插件可设置全球国家区域,设置视频保存位置,等自定义设置</li><li>解除视频下载限制，可存储任何视频无视权限；解除合拍/拼接限制</li><li>给视频添加播放进度条显示；为下载视频文件的名称添加了作者标签</li><li>修改GIF和视频默认保存位置重定向为Movies/TikTok目录文件夹存储；</li><li>支持手机号码登陆；修正谷歌授权、Facebook授权、VK授权；移除了调试信息；</li><li>禁用不必要活动控件、禁用所有类型分析、禁用统计分析、对齐优化、极限压缩；</li><li>启用观看历史、优化电池消耗、禁用自动启动，隐藏的根权限，删除许多其他限制</li><li>强制启用高画质视频、强制启用高品质音频、强制启用超清分辨率、并启用抗锯齿</li></ul><p><a href="https://pan.baidu.com/s/1LFD2mQ35Ae6KUUWEvenINg?pwd=zapu">tiktok国际版下载地址</a></p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;TikTok 抖音国际版 v34.1.4 去广告解锁全部国家任意切换&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="福利" scheme="http://v2rayhome.github.io/categories/%E7%A6%8F%E5%88%A9/"/>
-    
-    
-    <category term="福利" scheme="http://v2rayhome.github.io/tags/%E7%A6%8F%E5%88%A9/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>XMind 2024 v24.01.14362 中文免安装绿色特别版，支持win和mac</title>
-    <link href="http://v2rayhome.github.io/2024/04/09/fuli-132/"/>
-    <id>http://v2rayhome.github.io/2024/04/09/fuli-132/</id>
-    <published>2024-04-09T08:27:54.000Z</published>
-    <updated>2024-04-09T08:30:51.982Z</updated>
-    
-    <content type="html"><![CDATA[<p>XMind 2024 v24.01.14362 中文免安装绿色特别版 下载地址</p><a id="more"></a><p><img src="https://s2.loli.net/2024/04/09/AFiSIVzqert5Tob.png" alt="image.png"></p><p>XMind ZEN一款思维导图软件，简单易用、美观、功能强大，拥有高效的可视化思维模式，具备可扩展、跨平台、稳定性和性能，真正帮助用户提高生产率，促进有效沟通及协作。</p><p>软件功能</p><ul><li>无联网，免登陆，破解激活PRO专业版，无检查更新提示</li><li>提供批处理以供解压是否自选关联文件类型免安装绿色版</li><li>删除Electron框架无用的多国语言Pak，减小文件压缩大小</li><li>安装释放过程自动优化设置 (如果右键解压运行!首次优化.exe)<br>﹂跳过更新特性、许可协议、登陆向导、关闭自动更新和发送日志<br>﹂取消默认勾选导出PNG图像加入”presented with wmind”选项</li></ul><p><a href="https://pan.baidu.com/s/1c-PzCC9WqYHzgGU8ZrzkfA?pwd=zapu">xmind破解版下载地址</a></p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;XMind 2024 v24.01.14362 中文免安装绿色特别版 下载地址&lt;/p&gt;</summary>
     
     
     

@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://v2rayhome.github.io/2025/05/08/a-5/</loc>
+    
+    <lastmod>2025-05-08</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://v2rayhome.github.io/2025/05/07/a-2/</loc>
     
     <lastmod>2025-05-07</lastmod>
@@ -2201,6 +2208,13 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>http://v2rayhome.github.io/tags/%E6%95%B0%E7%A0%81/</loc>
+    <lastmod>2025-05-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
   
   <url>
@@ -2352,6 +2366,13 @@
   
   <url>
     <loc>http://v2rayhome.github.io/categories/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</loc>
+    <lastmod>2025-05-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://v2rayhome.github.io/categories/%E6%95%B0%E7%A0%81/</loc>
     <lastmod>2025-05-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
